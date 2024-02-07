@@ -18,4 +18,4 @@ Feel free to explore other blogs written by me about technology or science and e
 
 ## 📖 Useful links
 
--[Working CRUD in JS] (https://lucas-gualberto94.github.io/CRUD-JS/)
+-[Working CRUD in JS] (https://lucas-gualberto94.github.io/crud-JS/)
