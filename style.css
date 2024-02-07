@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+.title {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#crudForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#crudForm > label {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#crudForm > input {
+    margin-top: 5px;
+    font-size:1.5rem;
+    padding: 3px 10px;
+}
+
+#crudForm > button {
+    margin: 15px auto;
+    font-size:1.5rem;
+    padding: 5px;
+    align-self: self-start;
+    border-radius: 10px;
+    background-color: #ffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#crudForm >button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+#recordList > li {
+    margin: 10px 5px;
+    font-size:1.2rem; 
+    text-align: center;     
+}
+
+#recordList > h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#recordList > li > button {
+    padding: 2px;
+    align-self: self-start;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+
+@media screen and (min-width: 600px) {
+    #crudForm > label {
+        text-align: center;
+    }
+
+    #crudForm > input {
+        margin: 5px auto;
+        width: 50%;
+    }
+
+    #recordList > li {
+        text-align: center;
+          
+    }
+}
